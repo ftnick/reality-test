@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+	font-family: 'Arial', sans-serif;
+	background: url('../images/bg.png') no-repeat center center fixed;
+	background-size: cover;
+	color: #d4d4d4; /* Subtle contrast for text */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	text-align: center;
+}
+
+h1 {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+	text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.8); /* Glow effect */
+}
+
+p {
+	font-size: 1.2rem;
+	margin-bottom: 2rem;
+	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8); /* Subtle shadow */
+}
+
+.buttons {
+	display: flex;
+	gap: 20px;
+}
+
+.button {
+	text-decoration: none;
+	padding: 15px 30px;
+	font-size: 1rem;
+	font-weight: bold;
+	color: #d4d4d4;
+	background-color: rgba(0, 0, 0, 0.7); /* Transparent dark background */
+	border: 1px solid #555; /* Subtle border to match the mood */
+	border-radius: 5px;
+	transition: all 0.3s ease;
+	box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7); /* Button shadow */
+}
+
+.button:hover {
+	background-color: rgba(255, 255, 255, 0.1); /* Lighten on hover */
+	color: #ffffff;
+	border-color: #fff;
+	box-shadow: 2px 2px 15px rgba(255, 255, 255, 0.5); /* Highlight glow */
+}
